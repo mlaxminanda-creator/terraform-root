@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "young-minds-app-terraform-state"
+    bucket         = "mydev-project-terraform-sample-batch-3355"
     region         = "us-east-1"
     key            = "batch-32/terraform.tfstate"
     encrypt        = true
